@@ -1,0 +1,138 @@
+/*
+Theme Name: Mariapori
+Theme URI: https://mariapori.fi
+Author: Topias Mariapori
+Author URI: https://mariapori.fi
+Description: Itse tehty wordpress teema vuoden 2018 sivustosta.
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: mobile-friendly, custom, green
+Text Domain: mariapori
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+body {
+    background-image: url(tausta.png);
+    margin: 0px;
+    font-family: sans-serif;
+}
+#banneri {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+#banneri img{
+    width: 100%;
+    height: auto;
+}
+.alasisalto {
+    text-align: center;
+}
+.sisalto {
+    max-width: 1500px;
+    margin:0 auto;
+    background-color: rgb(0, 66, 0);
+    color: green; 
+}
+.sisalto .alasisalto {
+    background-color: darkgreen;
+    color: #000;
+}
+.sisalto .alasisalto h2{
+    margin-top: 0px;
+}
+.sisalto a {
+    color: green;  
+    text-decoration: none;
+    font-size: 20px;
+}
+.sisalto a:hover {
+    color: darkgreen;
+}
+#navigaatio ul {
+    list-style-type: none;
+    margin:0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+    max-width: 1500px;
+}
+
+#navigaatio ul li {
+    float: left;
+}
+
+#navigaatio ul li a {
+    display: block;
+    color: #000 !important;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navigaatio ul li a:hover {
+    background-color: darkgreen !important;
+}
+@media screen and (max-width: 1500px) {
+    #navigaatio {
+        display: none;
+    }
+   #navigaatio li {
+        float: none !important;
+    }
+    #mobiilinavigaatio {
+        background-color: green;
+        background-image: url(icon.png);
+        height: 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #banneri {
+        margin-bottom: -4px;
+    }
+    #teamspeak{
+        width: 100%;
+    }
+    
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#uutiset {
+    color: #000;
+    padding: 10px;
+}
+form {
+    display: inline-grid;
+    padding-bottom: 20px;
+}
+input[type=submit] {
+    width: 100%;
+}
+.grid-container {
+    display: grid;
+    grid: 100px / auto auto auto;
+    grid-gap: 5px;
+    padding: 10px;
+  }
+  .grid-container>div {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    overflow: hidden;
+  }
+  .item1 img, .item2 img, .item3 img{
+    width: 100%;
+  }
+  #teamspeak{
+    padding-top: 5px;
+  }
