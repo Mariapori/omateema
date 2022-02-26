@@ -28,6 +28,13 @@ body {
 }
 .alasisalto {
     text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: darkgreen;
+}
+.alasisalto h1 {
+    margin:0;
+    padding:5px
 }
 .sisalto {
     max-width: 1500px;
