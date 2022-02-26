@@ -19,5 +19,8 @@
 <div id="navigaatio">
 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 </div>
+<div class="alasisalto">
+<h1><?php the_title(); ?></h1>
+</div>
 <div class="sisalto">
 <?php wp_head(); ?>
