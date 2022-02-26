@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>Mariapori.fi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/js/jquery.js'; ?>">
 </script>
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/js/bootstrap.js'; ?>">
